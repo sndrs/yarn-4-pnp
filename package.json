@@ -1,0 +1,15 @@
+{
+  "name": "yarn-4-pnp",
+  "packageManager": "yarn@4.0.1",
+  "dependencies": {
+    "prettier": "^3.0.3",
+    "react": "18.2.0"
+  },
+  "type": "module",
+  "workspaces": [
+    "workspaces/*"
+  ],
+  "scripts": {
+    "start": "node ./index.mjs"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "b",
+  "packageManager": "yarn@4.0.1",
+  "dependencies": {
+    "a": "workspace:*",
+    "prettier": "3.0.3",
+    "react": "17.0.0"
+  },
+  "scripts": {
+    "start": "node ./index.mjs"
+  }
+}
